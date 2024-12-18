@@ -1,0 +1,41 @@
+h2{ margin-left: 80px;}
+
+.result{
+    &__item{
+        margin-left: 80px;
+
+        p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    &__tag{
+        &--true{
+            background-color: rgb(93, 227, 93);
+            color:#184a13;
+            margin-left: 16px;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        &--false{
+            background-color: rgb(247, 158, 154);
+            color:#676418;
+            margin-left: 16px;
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    }
+
+    &__answer{
+        &--selectsed{
+            color: red;
+        }
+        &--result{
+            color: rgb(11, 210, 11);
+        }
+    }
+
+}

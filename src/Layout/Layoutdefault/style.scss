@@ -1,0 +1,76 @@
+.layout-default{
+    &__header{
+        display: flex;
+        background-color: orange;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+    &__menu{
+        display: flex;
+    }
+    &__quiz{
+        margin-left:60px;
+        padding: 10px 0;
+        a{
+            color:#fff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    &__login{
+        margin-right: 10px;
+        padding: 10px 0;
+        padding-right: 10px;
+        a{
+            color:#fff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    &__register{
+        margin-right: 60px;
+        padding: 10px 0;
+        padding-left: 10px;
+        a{
+            color:#fff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    &__main{
+        ul{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 10px 0;
+        }
+        li{
+            padding:0 15px;
+        }
+        &--while{
+            color:#fff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    &__group{
+        margin-bottom: 30px;
+    }
+
+
+    &__footer{
+        background: orange;
+        text-align: center;
+        padding: 5px;
+        color:#fff;
+        position: fixed;
+        bottom: 0;
+        width:100%;
+        
+    }
+}
+a{
+    text-decoration: none;
+}

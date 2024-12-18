@@ -1,0 +1,39 @@
+.login{
+    border: 1px solid #ddd;
+    width:400px;
+    border-radius: 6px;
+    padding:20px;
+    margin: auto;
+    margin-top: 100px;
+    height:200px;
+
+    &__title{
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    &__email{
+        width:380px;
+        font-size:16px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    &__pass{
+        width:380px;
+        font-size:16px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+    &__button{
+        background-color: orange;
+        border: 0;
+        color:#fff;
+        font-size: 16px;
+        padding:10px 20px;
+        border-radius: 5px;
+    }
+}
